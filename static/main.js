@@ -12,11 +12,16 @@ var GEXTURES = GEXTURES || {};
 $(document).ready(function () {
     GEXTURES.sandboxTest();
 
-    $('#cvsMain')[0].width = 800;
-    $('#cvsMain')[0].height = 500;
+    // var qwertyImg = new Image();  
+    // qwertyImg .src = "qwerty.png"; 
+
+    $('#cvsMain')[0].width = 600;
+    $('#cvsMain')[0].height = 200;
     $('#cvsMain').css('background-color', '#eeeeee');
+    // $('#cvsMain').css('opacity', '0.5');
 
     GEXTURES.context = $('#cvsMain')[0].getContext('2d');
+    // GEXTURES.context.drawImage(qwertyImg, 0, 0);
     GEXTURES.context.strokeStyle = "#df4b26";
     GEXTURES.context.lineJoin = "round";
     GEXTURES.context.lineWidth = 5;
