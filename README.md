@@ -30,5 +30,6 @@ word they typed will appear on the top.
 
 #### Back-End
 * Flask
+* Algorithm implemented with Python
   
   
